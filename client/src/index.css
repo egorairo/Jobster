@@ -1,0 +1,52 @@
+:root {
+  --flex: flex;
+  --align-center: center;
+  --justify-center: center;
+  --tw-text-opacity: 1;
+}
+
+button {
+  display: flex;
+  color: #ffffff;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: rgba(37, 99, 235);
+  border-radius: 9999px;
+  justify-content: center;
+  align-items: center;
+}
+
+.jobLink {
+  display: flex;
+  --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+    0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  padding: 1rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  border-radius: 0.75rem;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  transition: 1s;
+}
+
+.jobLink:hover {
+  transform: scale(1.1);
+}
+
+p {
+  margin: 0;
+}
+
+section {
+  display: flex;
+}
+
+.headerAndPost {
+  display: flex;
+  justify-content: space-between;
+}

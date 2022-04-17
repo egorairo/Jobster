@@ -1,0 +1,10 @@
+.postJobButton {
+  border: 2px solid rgba(37, 99, 235);
+  background-color: rgb(243 244 246);
+  color: rgba(37, 99, 235);
+}
+
+.postJobButton:hover {
+  background-color: rgba(37, 99, 235);
+  color: #ffffff;
+}

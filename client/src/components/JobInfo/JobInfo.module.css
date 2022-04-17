@@ -1,0 +1,105 @@
+:root {
+  --flex: flex;
+  --align-center: center;
+  --justify-center: center;
+  --tw-text-opacity: 1;
+}
+
+.backToJobList {
+  width: 20%;
+}
+
+.a {
+  color: rgba(96, 165, 250, var(--tw-text-opacity));
+  position: fixed;
+}
+
+.mainContainer {
+  width: 80%;
+}
+
+.jobContainer {
+  display: var(--flex);
+  flex-direction: column;
+  align-items: var(--align-center);
+}
+
+.titleContainer {
+  display: var(--flex);
+  align-items: var(--align-center);
+  margin-bottom: 0.5rem;
+}
+
+.position {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+
+.dateContainer {
+  color: rgba(156, 163, 175, var(--tw-text-opacity));
+  margin-bottom: 2.5rem;
+  display: var(--flex);
+  align-items: var(--align-center);
+}
+
+.locationIcon {
+  margin-right: 0.5rem;
+}
+
+.timeIcon {
+  margin-right: 0.5rem;
+}
+
+.companyInfoContainer {
+  display: var(--flex);
+  align-items: var(--align-center);
+  margin-bottom: 2.5rem;
+  color: rgba(156, 163, 175, var(--tw-text-opacity));
+}
+
+.img {
+  object-fit: contain;
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1rem;
+  border-radius: 0.75rem;
+}
+
+.nameAndLocationContainer {
+  display: var(--flex);
+  flex-direction: column;
+}
+
+.companyName {
+  color: rgba(55, 65, 81, var(--tw-text-opacity));
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.locationContainer {
+  display: var(--flex);
+  align-items: var(--align-center);
+  color: rgba(156, 163, 175, var(--tw-text-opacity));
+}
+
+.descriptionContainer {
+  margin-bottom: 2.5rem;
+}
+
+.description {
+  color: rgba(107, 114, 128, var(--tw-text-opacity));
+}
+
+.howToApply {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.applyUrl {
+  color: rgba(37, 99, 235, var(--tw-text-opacity));
+}
